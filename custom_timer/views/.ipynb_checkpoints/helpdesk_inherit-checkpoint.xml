@@ -8,8 +8,6 @@
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='user_id']" position="replace">
                     <field name="user_id" invisible="1"/>
-                </xpath>
-                <xpath expr="//field[@name='tag_ids']" position="replace">
                     <field name="tag_ids" invisible="1"/>
                     <field name="helpdesk_team_id" />
                 </xpath>
