@@ -17,7 +17,7 @@
 
     'version': '0.01',
 
-    'depends': ['base','helpdesk','contacts'],
+    'depends': ['base']
 
     'data': [
         "security/ir.model.access.csv",
