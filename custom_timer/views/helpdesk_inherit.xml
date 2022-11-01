@@ -10,9 +10,8 @@
                     <field name="user_id" invisible="1"/>
                     <field name="tag_ids" invisible="1"/>
                     <field name="helpdesk_team_id" />
-                </xpath>
                     <field name="canal_type"/>
-                
+                </xpath>
                 <xpath expr="//field[@name='email_cc']" position="after">
                     <field name="alias_ticket" placeholder="Alias"/>
                     <field name="clasificacion_ticket" placeholder="Categoria"/>
@@ -21,4 +20,4 @@
             </field>
         </record>
     </data>
-</odoo>
+</odoo> 
